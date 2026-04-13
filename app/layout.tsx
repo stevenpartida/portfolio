@@ -22,7 +22,9 @@ export default function RootLayout({
   return (
     <>
       <html lang="en" className={`${inter.variable}`} suppressHydrationWarning>
-        <body className={`${inter.className} antialiased`}>
+        <body
+          className={`${inter.className} antialiased w-full max-w-3xl mx-auto `}
+        >
           <ThemeProvider
             attribute="class"
             defaultTheme="light"
