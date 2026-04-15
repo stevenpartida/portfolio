@@ -5,7 +5,10 @@ export type SocialLink = {
 
 export type Experience = {
   company: string;
-  logoUrl: string;
+  logoUrl: {
+    light: string;
+    dark: string;
+  };
   role: string;
   tags: string[];
   start: string;

@@ -5,7 +5,7 @@ import { socialLinks } from "@/lib/data";
 
 function HeroHeader() {
   return (
-    <div className="flex flex-col gap-6 mx-6 sm:mx-0">
+    <div className="flex flex-col gap-6 mx-5 sm:mx-0">
       <div className="flex flex-row justify-between mt-16 ">
         <h1 className="text-5xl sm:text-6xl font-semibold leading-none tracking-tight">
           Steven Partida
